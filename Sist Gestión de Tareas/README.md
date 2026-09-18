@@ -99,12 +99,14 @@ En resumen, `Main` llama a `GestorTareas`, que a su vez usa `ArrayList`. Y todo 
 
 ```
 Sist Gestión de Tareas/
-├── Main.java
-├── GestorTareas.java
-├── Tarea.java
-├── Prioridad.java
-├── ArrayList.java
-└── List.java
+├──src
+|  ├── Main.java
+|  ├── GestorTareas.java
+|  ├── Tarea.java
+|  ├── Prioridad.java
+|  ├── ArrayList.java
+|  └── List.java
+└── README.md
 ```
 
 ---
