@@ -104,12 +104,14 @@ En resumen, `Main` llama a `GestionBiblioteca`, que a su vez usa `LinkedList`, q
 
 ```
  Sist Gestión de Biblioteca/
-├── Main.java
-├── GestionBiblioteca.java
-├── Libro.java
-├── LinkedList.java
-├── Nodo.java
-└── List.java
+├──src
+|  ├── Main.java
+|  ├── GestionBiblioteca.java
+|  ├── Libro.java
+|  ├── LinkedList.java
+|  ├── Nodo.java
+|  └── List.java
+└── README.md
 ```
 
 ---
