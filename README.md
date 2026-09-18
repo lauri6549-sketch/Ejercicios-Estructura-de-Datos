@@ -1,6 +1,6 @@
-# Ejercicios Estructuras de Datos
+# Ejercicios Estructuras de Datos en Java
 
-## ¿De qué trata este proyecto?
+## ¿De qué trata este repositorio?
 
 Este repositorio reúne **dos ejercicios prácticos** desarrollados en Java con un objetivo común: **comprender cómo funcionan internamente las estructuras de datos dinámicas**, implementándolas desde cero en lugar de usar las que ya vienen incluidas en el lenguaje.
 
