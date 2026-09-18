@@ -1,4 +1,4 @@
-# Proyecto: Estructuras de Datos en Java – ArrayList y LinkedList
+# Ejercicios Estructuras de Datos
 
 ## ¿De qué trata este proyecto?
 
