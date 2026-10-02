@@ -91,7 +91,7 @@ Ejercicios-Estructura-de-Datos/
 │   │   └── List.java
 │   └── README.md
 │
-└── Operaciones con Listas Enlazadas/
+└── Operaciones con Listas Enlazadas CP2/
     ├── src
     │   ├── Main.java
     │   ├── LinkedList.java
