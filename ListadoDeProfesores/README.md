@@ -93,16 +93,15 @@ En resumen, `Main` llama a `GestorProfesores`, que a su vez usa `LinkedList`, qu
 
 ## Estructura del proyecto
 
-ListadoDeProfesores/
+ListadoDeEstudiantes/
 ├── src
-│   ├── Main.java
-│   ├── GestorProfesores.java
-│   ├── Profesor.java
-│   ├── LinkedList.java
-│   ├── Nodo.java
-│   └── List.java
+│  ├── Main.java
+│  ├── GestorEstudiante.java
+│  ├── Estudiante.java
+│  ├── LinkedList.java
+│  ├── Nodo.java
+│  └── List.java
 └── README.md
-
 
 ---
 
