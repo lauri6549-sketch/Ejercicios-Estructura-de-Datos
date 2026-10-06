@@ -11,7 +11,7 @@ public class Main {
             System.out.println("2. Mostrar estudiantes que cumplen años en un mes");
             System.out.println("3. Mostrar militantes de la UJC ordenados por año");
             System.out.println("4. Mostrar cantidad de becados");
-            System.out.println("5. Ejecutar casos de prueba");
+            System.out.println("5. Ver casos de prueba");
             System.out.println("6. Salir");
             System.out.print("Opción: ");
 
