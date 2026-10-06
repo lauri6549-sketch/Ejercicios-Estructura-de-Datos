@@ -11,7 +11,7 @@ public class Main {
             System.out.println("2. Mostrar profesores próximos a cambio");
             System.out.println("3. Mostrar lista ordenada por edad (mayor a menor)");
             System.out.println("4. Mostrar cantidad de profesores por categoría");
-            System.out.println("5. Ejecutar casos de prueba");
+            System.out.println("5. Ver casos de prueba");
             System.out.println("6. Salir");
             System.out.print("Opción: ");
 
