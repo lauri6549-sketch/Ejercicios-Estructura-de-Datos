@@ -2,11 +2,11 @@
 
 ## ¿De qué trata este repositorio?
 
-Este repositorio reúne **tres ejercicios prácticos** desarrollados en Java con un objetivo común: comprender cómo funcionan internamente las **estructuras de datos dinámicas**, implementándolas desde cero en lugar de usar las que ya vienen incluidas en el lenguaje.
+Este repositorio reúne **cinco ejercicios prácticos** desarrollados en Java con un objetivo común: comprender cómo funcionan internamente las **estructuras de datos dinámicas**, implementándolas desde cero en lugar de usar las que ya vienen incluidas en el lenguaje.
 
-Cada ejercicio resuelve un problema real (la gestión de una biblioteca, la gestión de tareas pendientes y las operaciones con listas enlazadas), pero lo importante no es solo el resultado final, sino el **camino recorrido**: entender cómo se guardan, ordenan, buscan y modifican los datos por dentro.
+Cada ejercicio resuelve un problema real (la gestión de una biblioteca, la gestión de tareas pendientes, las operaciones con listas enlazadas, la gestión de profesores y la gestión de estudiantes), pero lo importante no es solo el resultado final, sino el **camino recorrido**: entender cómo se guardan, ordenan, buscan y modifican los datos por dentro.
 
-Los tres ejercicios son independientes entre sí, pero comparten el mismo objetivo.
+Los cinco ejercicios son independientes entre sí, pero comparten el mismo objetivo.
 
 ---
 
@@ -40,6 +40,26 @@ Además, el sistema incluye un menú interactivo que permite al usuario crear li
 
 ---
 
+## Ejercicio 4: Sistema de Gestión de Profesores
+
+Este ejercicio simula el control de los datos de los profesores de un departamento de Informática. Permite agregar profesores, mostrar los instructores próximos a cambio de categoría, mostrar la lista de profesores ordenada por edad de mayor a menor y contar la cantidad de profesores por categoría docente.
+
+La particularidad de este ejercicio es que se implementó una lista enlazada desde cero para almacenar los profesores, y se utilizó el algoritmo **Merge Sort** para ordenarlos por edad. Esto obliga a pensar en cómo se dividen y fusionan los nodos de una lista enlazada, en lugar de simplemente llamar a un método de ordenamiento ya existente.
+
+Además, el sistema incluye validaciones para asegurarse de que los datos ingresados (nombre, edad y categoría docente) cumplan con un formato correcto, y una serie de pruebas que comprueban que el programa responde bien tanto a los casos exitosos como a los errores.
+
+---
+
+## Ejercicio 5: Sistema de Gestión de Estudiantes
+
+Este ejercicio simula el control de los datos de los estudiantes de un departamento de Informática. Permite agregar estudiantes, mostrar los que cumplen años en un mes determinado, mostrar los militantes de la UJC ordenados por año y contar la cantidad de estudiantes becados.
+
+La particularidad de este ejercicio es que el **mes de nacimiento se extrae del Carné de Identidad (CI)** del estudiante, ya que el CI cubano contiene la fecha de nacimiento en sus primeros seis dígitos (año, mes y día). Esto obliga a pensar en cómo validar y extraer información de un identificador único, en lugar de pedirla directamente al usuario.
+
+Además, el sistema utiliza Merge Sort para ordenar a los militantes por año, incluye validaciones para asegurarse de que el CI sea correcto (11 dígitos, mes y día válidos según el año bisiesto) y una serie de pruebas que comprueban que el programa responde bien tanto a los casos exitosos como a los errores.
+
+---
+
 ## ¿Cuál fue el objetivo de estos ejercicios?
 
 El objetivo principal fue **entender cómo funcionan las estructuras de datos dinámicas por dentro**, implementándolas desde cero. En lugar de usar las clases ya hechas de Java, se construyeron versiones propias para:
@@ -53,9 +73,9 @@ Además, se buscó que cada ejercicio resolviera un **problema real y útil**, p
 
 ---
 
-## ¿Qué comparten los tres ejercicios?
+## ¿Qué comparten los cinco ejercicios?
 
-Aunque los contextos son distintos (una biblioteca, un gestor de tareas y operaciones con listas), los tres ejercicios comparten varios elementos:
+Aunque los contextos son distintos (una biblioteca, un gestor de tareas, operaciones con listas, una gestión de profesores y una gestión de estudiantes), los cinco ejercicios comparten varios elementos:
 
 - **Implementación propia** de una estructura de datos dinámica.
 - **Uso de interfaces** para definir contratos claros.
@@ -92,12 +112,33 @@ Ejercicios-Estructura-de-Datos/
 │   └── README.md
 │
 └── Operaciones con Listas Enlazadas CP2/
+│   ├── src
+│   │   ├── Main.java
+│   │   ├── LinkedList.java
+│   │   ├── Nodo.java
+│   │   └── List.java
+│   └── README.md
+│
+└── Listado de Profesores/
+│   ├── src
+│   │   ├── Main.java
+│   │   ├── GestorProfesores.java
+│   │   ├── Profesor.java
+│   │   ├── LinkedList.java
+│   │   ├── Nodo.java
+│   │   └── List.java
+│   └── README.md
+│
+└── ListadoDeEstudiantes/
     ├── src
-    │   ├── Main.java
-    │   ├── LinkedList.java
-    │   ├── Nodo.java
-    │   └── List.java
+    │  ├── Main.java
+    │  ├── GestorEstudiante.java
+    │  ├── Estudiante.java
+    │  ├── LinkedList.java
+    │  ├── Nodo.java
+    │  └── List.java
     └── README.md
+
 ```
 
 Cada carpeta contiene su propio README con la explicación detallada del ejercicio correspondiente.
