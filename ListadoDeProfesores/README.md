@@ -95,12 +95,12 @@ En resumen, `Main` llama a `GestorProfesores`, que a su vez usa `LinkedList`, qu
 
 ListadoDeProfesores/
 ├── src
-│ ├── Main.java
-│ ├── GestorProfesores.java
-│ ├── Profesor.java
-│ ├── LinkedList.java
-│ ├── Nodo.java
-│ └── List.java
+│   ├── Main.java
+│   ├── GestorProfesores.java
+│   ├── Profesor.java
+│   ├── LinkedList.java
+│   ├── Nodo.java
+│   └── List.java
 └── README.md
 
 
