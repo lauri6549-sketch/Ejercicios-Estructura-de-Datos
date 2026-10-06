@@ -72,7 +72,7 @@ Aquí se encuentran los métodos que el usuario puede usar:
 
 Es el punto de entrada del programa. Muestra un menú con las operaciones disponibles y utiliza un `Scanner` para leer las opciones del usuario. Cada opción llama a un método de `GestorProfesores` y muestra el resultado correspondiente.
 
-También incluye una opción para ejecutar **casos de prueba** (positivos, negativos y límite) que verifican el funcionamiento de los métodos.
+También incluye una opción para ejecutar **casos de prueba** (positivos y negativos) que verifican el funcionamiento de los métodos.
 
 ---
 
