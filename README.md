@@ -111,7 +111,7 @@ Ejercicios-Estructura-de-Datos/
 │   │   └── List.java
 │   └── README.md
 │
-└── Operaciones con Listas Enlazadas CP2/
+└── OperacionesListasEnlazada CP2/
 │   ├── src
 │   │   ├── Main.java
 │   │   ├── LinkedList.java
@@ -119,7 +119,7 @@ Ejercicios-Estructura-de-Datos/
 │   │   └── List.java
 │   └── README.md
 │
-└── Listado de Profesores/
+└── ListadoDeProfesores/
 │   ├── src
 │   │   ├── Main.java
 │   │   ├── GestorProfesores.java
@@ -129,7 +129,7 @@ Ejercicios-Estructura-de-Datos/
 │   │   └── List.java
 │   └── README.md
 │
-└── Listado de Estudiantes/
+└── ListadoDeEstudiantes/
     ├── src
     │  ├── Main.java
     │  ├── GestorEstudiante.java
