@@ -73,7 +73,7 @@ Aquí se encuentran los métodos que el usuario puede usar:
 
 Es el punto de entrada del programa. Muestra un menú con las operaciones disponibles y utiliza un `Scanner` para leer las opciones del usuario. Cada opción llama a un método de `GestorEstudiante` y muestra el resultado correspondiente.
 
-También incluye una opción para ejecutar **casos de prueba** (positivos, negativos y límite) que verifican el funcionamiento de los métodos.
+También incluye una opción para ejecutar **casos de prueba** (positivos y negativos) que verifican el funcionamiento de los métodos.
 
 ---
 
@@ -94,16 +94,17 @@ En resumen, `Main` llama a `GestorEstudiante`, que a su vez usa `LinkedList`, qu
 
 ## Estructura del proyecto
 
+```
 ListadoDeEstudiantes/
 ├── src
-│ ├── Main.java
-│ ├── GestorEstudiante.java
-│ ├── Estudiante.java
-│ ├── LinkedList.java
-│ ├── Nodo.java
-│ └── List.java
+│  ├── Main.java
+│  ├── GestorEstudiante.java
+│  ├── Estudiante.java
+│  ├── LinkedList.java
+│  ├── Nodo.java
+│  └── List.java
 └── README.md
-
+```
 
 ---
 
