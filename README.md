@@ -129,7 +129,7 @@ Ejercicios-Estructura-de-Datos/
 │   │   └── List.java
 │   └── README.md
 │
-└── ListadoDeEstudiantes/
+└── Listado de Estudiantes/
     ├── src
     │  ├── Main.java
     │  ├── GestorEstudiante.java
