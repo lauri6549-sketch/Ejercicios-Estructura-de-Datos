@@ -52,7 +52,7 @@ Además, el sistema incluye validaciones para asegurarse de que los datos ingres
 
 ## Ejercicio 5: Sistema de Gestión de Estudiantes
 
-Este ejercicio simula el control de los datos de los estudiantes de un departamento de Informática. Permite agregar estudiantes, mostrar los que cumplen años en un mes determinado, mostrar los militantes de la UJC ordenados por año y contar la cantidad de estudiantes becados.
+Este ejercicio simula el control de los datos de los estudiantes de una carrera de Informática. Permite agregar estudiantes, mostrar los que cumplen años en un mes determinado, mostrar los militantes de la UJC ordenados por año y contar la cantidad de estudiantes becados.
 
 La particularidad de este ejercicio es que el **mes de nacimiento se extrae del Carné de Identidad (CI)** del estudiante, ya que el CI cubano contiene la fecha de nacimiento en sus primeros seis dígitos (año, mes y día). Esto obliga a pensar en cómo validar y extraer información de un identificador único, en lugar de pedirla directamente al usuario.
 
